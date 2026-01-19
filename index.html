@@ -7,27 +7,48 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header class="bg-light">
-        <nav class="nav-bar">
-            <h2 class="brand">TechWave</h2>
-            <ul class="nav-links">
-                <li class="nav-item"><a href="">About</a></li>
-                <li class="nav-item"><a href="">Episodes</a></li>
-                <li class="nav-item"><a href="">Host</a></li>
-            </ul>
-            <button class="btn1">Subscribe</button>
-        </nav>
-    </header>
-    <section class="banner">
-        <div class="hero">
-            <img src="./Images/hero-circle.png" alt="">
-            <img src="./Images/microphone.png" alt="">
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Tech<span class="W">Wave</span></h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Episodes</a></li>
+                    <li><a href="">Host</a></li>
+                </ul>
+                <button class="gradient-btn">Subscribe <img src="./Images/ArrowRight.png" alt=""></button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </div>
-        <div class="banner-content">
-            <h1 class="banner-title">TechWave</h1>
-            <p class="banner-descriptio">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-            <button class="btn1">Listen on Spotify</button>
-            <button class="btn2"> <img src="./Images/message.png" alt="">Subscribe</button>
+    </nav>
+    <section class="banner" id="home">
+        <div class="banner-overlay"></div>
+        <div class="container">
+            <div class="banner-content">
+                <div class="podcast-circle">
+                    <div class="circle-glow"></div>
+                    <div class="circle-inner">
+                        <img src="./Images/hero-circle.png" alt="" class="circle-image">
+                        <span class="new-badge">New</span>
+                    </div>
+                    <div class="mic">
+                        <img src="./Images/microphone.png" alt="" class="mic-image"></div>
+                </div>
+                
+                <h1 class="banner-heading">TechWave</h1>
+                <p class="banner-text">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                
+                <div class="banner-buttons">
+                    <button class="btn-primary"> <img src="./Images/spotify.png" alt=""> Listen On Spotify</button>
+                    <button class="btn-secondary"> <img src="./Images/message.png" alt="">Subscribe</button>
+                </div>
+            </div>
         </div>
     </section>
 </body>

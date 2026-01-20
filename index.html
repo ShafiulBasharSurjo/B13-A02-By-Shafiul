@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar hide">
         <div class="container">
             <div class="nav-wrapper">
                 <div class="logo">
@@ -18,7 +18,7 @@
                     <li><a href="">Episodes</a></li>
                     <li><a href="">Host</a></li>
                 </ul>
-                <button class="gradient-btn">Subscribe <img src="./Images/ArrowRight.png" alt=""></button>
+                <button class="gradient-btn"><a href="">Subscribe <img src="./Images/ArrowRight.png" alt=""></a></button>
                 <div class="hamburger">
                     <span></span>
                     <span></span>
@@ -27,7 +27,7 @@
             </div>
         </div>
     </nav>
-    <section class="banner" id="home">
+    <section class="banner hide" id="home">
         <div class="banner-overlay"></div>
         <div class="container">
             <div class="banner-content">
@@ -50,7 +50,7 @@
             </div>
         </div>
     </section>
-    <section class="about" id="about">
+    <section class="about hide" id="about">
         <div class="container">
             <div class="about-header">
                 <h2>About the Podcast</h2>
@@ -82,7 +82,7 @@
             </div>
         </div>
     </section>
-    <section class="why-choose">
+    <section class="why-choose hide">
         <div class="container">
           <h2>Why Choose TechWave</h2>
             <div class="features-grid">
@@ -128,5 +128,97 @@
             </div>
         </div>
     </section>
+    <section class="featured-episodes hide" id="episodes">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Episodes</h2>
+            </div>
+            
+            <div class="episodes-grid">
+                <div class="episode-card">
+                    <div class="episode-thumbnail">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LnrPppASOlE?si=GW5WyKJMKqY3HBde&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="episode-content">
+                        <h3>The Future of Artificial Intelligence</h3>
+                        <p>Exploring how AI is reshaping industries and what it means for the future of work, creativity, and human potential.</p>
+                        <div class="episode-meta">
+                            <span class="duration"><img src="./Images/clock.png" alt=""> 45 min</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="episode-card">
+                    <div class="episode-thumbnail">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3dt6fWJ934k?si=BelvRSGVm_houjAS&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="episode-content">
+                        <h3>Building Resilient Teams</h3>
+                        <p>Leadership insights on creating cultures of trust, innovation, and collaboration in the modern workplace.</p>
+                        <div class="episode-meta">
+                            <span class="duration"><img src="./Images/clock.png" alt=""> 38 min</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="episode-card">
+                    <div class="episode-thumbnail">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eCRqKmXJiVI?si=PHNIL8E7SrJ6jrYI&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="episode-content">
+                        <h3>Mindfulness in a Digital Age</h3>
+                        <p>Practical strategies for maintaining mental wellness and presence in an increasingly connected world.</p>
+                        <div class="episode-meta">
+                            <span class="duration"><img src="./Images/clock.png" alt=""> 52 min</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="host">
+            <h2>Meet the Host</h2>
+            <div class="host-content">
+                <div class="host-card">
+                    <div class="host-img">
+                        <img src="./Images/host.png" alt="">
+                    </div>
+                    <div class="host-intro">
+                    <h3 class="host-name">Alex Kumar</h3>
+                    <p class="host-bio">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                    <a href="" class="socials">
+                        <img src="./Images/linkedin.png" alt="" class="social-img">
+                    </a>
+                    <a href="" class="socials">
+                        <img src="./Images/x.png" alt="" class="social-img">
+                    </a>
+                    <a href="" class="socials">
+                        <img src="./Images/instagram.png" alt="" class="social-img">
+                    </a>
+                    <a href="" class="socials">
+                        <img src="./Images/youtube.png" alt="" class="social-img">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="f-content">
+            <div class="logo">
+                <h1>Tech<span class="W">Wave</span></h1>
+            </div>
+                <div class="Contact">
+                    <ul class="info">
+                        <li class="info-li one"><a href="" class="info-link"><img src="./Images/spotify.png" alt="" class="contact-img">Spotify</a></li>
+                        <li class="info-li two"><a href="" class="info-link"><img src="./Images/apple-podcast.png" alt="" class="contact-img">Apple podcasts</a></li>
+                        <li class="info-li three"><a href="" class="info-link"><img src="./Images/youtube-podcast.png" alt="" class="contact-img">YouTube</a></li>
+                        <li class="info-li four"><a href="" class="info-link"><img src="./Images/twitter.png" alt="" class="contact-img">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="rights">
+                    <p>© 2026 TechWave Podcast. All rights reserved.</p>
+                </div>
+        </div>
+    </footer>
 </body>
 </html>
